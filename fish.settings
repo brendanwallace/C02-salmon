@@ -1,0 +1,16 @@
+approximate_length_minutes = 30
+auto_quit = true
+cam_circle_mask = true
+nowindow = true
+
+detect_model = "/home/bw/Projects/c02-fish/fish_model.pt"
+
+track_max_individuals = 6
+
+calculate_posture = true
+cm_per_pixel = 1
+detect_classes = {0:"objects",1:"salmon"}
+detect_format = boxes
+detect_size_filter = []
+detect_type = yolo
+meta_encoding = rgb8
